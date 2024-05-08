@@ -1,0 +1,17 @@
+{
+  "name": "icon-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.11",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5"
+  }
+}
